@@ -100,7 +100,7 @@ public class MyLinkedList<T> implements MyLinkedListInterface<T> {
         private T item;
         private Node<T> next;
 
-        public Node(Node<T> prev, T item, Node<T> next) {
+        Node(Node<T> prev, T item, Node<T> next) {
             this.prev = prev;
             this.item = item;
             this.next = next;
